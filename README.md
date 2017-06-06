@@ -10,5 +10,14 @@ Use the anonymized data on customer orders over time provided by [Instacart](htt
 - Pandas
 - scikit-learn
 
+### Data
+
+- aisles.csv: Match aisle ID and aisle name
+- departments.csv: Match department ID and department name
+- order_products_prior.csv: Previous order contents for all customers
+- order_products_train.csv: Order contents for training 
+- order.csv: Tells which set(prior, train, test) an order belongs
+- products.csv: Match product ID and product name and aisle ID, department ID
+
 ### Reference
 [Kaggle competition](https://www.kaggle.com/c/instacart-market-basket-analysis)
