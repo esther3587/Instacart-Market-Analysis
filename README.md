@@ -9,6 +9,8 @@ Use the anonymized data on customer orders over time provided by [Instacart](htt
 - NumPy
 - Pandas
 - scikit-learn
+- seaborn
+- matlibplot
 
 ### Data
 
@@ -18,6 +20,10 @@ Use the anonymized data on customer orders over time provided by [Instacart](htt
 - order_products_train.csv: Order contents for training 
 - order.csv: Tells which set(prior, train, test) an order belongs
 - products.csv: Match product ID and product name and aisle ID, department ID
+
+### Analysis
+
+First we do EDA to examine data distribution and trend. Then we use naive approach to set up benchmark, which is to predict user will buy whatever he/she has purchased before. 
 
 ### Reference
 [Kaggle competition](https://www.kaggle.com/c/instacart-market-basket-analysis)
