@@ -11,6 +11,7 @@ Use the anonymized data on customer orders over time provided by [Instacart](htt
 - scikit-learn
 - seaborn
 - matlibplot
+- lightGBM
 
 ### Data
 
